@@ -18,20 +18,32 @@
 - `.env`: 环境变量配置文件，用于安全存储 API Key 等敏感凭证。
 
 ## 环境搭建
-1. 依赖安装
+1.创建虚拟环境
+```bash
+# 创建虚拟环境
+python -m venv venv
+
+# 激活虚拟环境
+# Windows
+venv\Scripts\activate
+# macOS/Linux
+source venv/bin/activate
+```
+
+2. 依赖安装
 在项目src 目录下打开终端，执行以下命令安装所需依赖：
 ```bash
 pip install -r requirements.txt
 
 ```
-2. 环境变量配置
+3. 环境变量配置
 在项目src目录创建 `.env` 文件，并填入你的 DeepSeek API Key：
 ```
 DEEPSEEK_API="your_deepseek_api_key_here"
 ```
 请将 `your_deepseek_api_key_here` 替换为您自己的 API 密钥。
 
-3. 启动步骤
+4. 启动步骤
 确保你在包含 app.py 的目录下，运行以下命令启动应用：
     ```bash
     streamlit run app.py
