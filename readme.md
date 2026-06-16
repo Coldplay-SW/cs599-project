@@ -36,4 +36,4 @@ streamlit run app.py
 ## 项目状态
 - [x] Proposal
 - [x] MVP
-- [ ] Final
+- [x] Final
