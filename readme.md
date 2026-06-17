@@ -54,3 +54,5 @@ streamlit run app.py
 - [x] Proposal
 - [x] MVP
 - [x] Final
+
+注：本项目引用开源项目github.com/jiangnanboy/medical-diagnosis-assistant
