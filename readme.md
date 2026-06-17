@@ -55,4 +55,4 @@ streamlit run app.py
 - [x] MVP
 - [x] Final
 
-注：本项目引用开源项目github.com/jiangnanboy/medical-diagnosis-assistant
+注：本项目引用开源项目`https://github.com/Coldplay-SW/cs599-project/tree/main`。
