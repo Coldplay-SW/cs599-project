@@ -4,7 +4,7 @@
 一个基于 LangGraph 和 DeepSeek 大模型构建的智能医疗诊断辅助系统。该项目模拟了完整的医疗诊断流程，从初步评估到最终报告生成，为医生和患者提供初步的诊断参考和治疗建议。
 
 ## 方向
-方向一：Agentic AI 原生开发
+Agentic AI 原生开发
 
 ## 技术栈
 - **后端框架**: LangGraph (工作流编排)
@@ -45,9 +45,9 @@ DEEPSEEK_API="your_deepseek_api_key_here"
 
 4. 启动步骤
 确保你在包含 app.py 的目录下，运行以下命令启动应用：
-    ```bash
-    streamlit run app.py
-    ```
+```bash
+streamlit run app.py
+```
 应用启动后，它会自动在您的默认浏览器中打开 `http://localhost:8501`。
 
 ## 项目状态
